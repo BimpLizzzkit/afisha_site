@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Афиша</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="nav wrap">
+      <button class="brand" type="button">САЙТ КОНЦЕРТНО-ЭКСКУРСИОННЫХ ПРОГРАММ</button>
+      <nav aria-label="Главная навигация">
+        <button type="button">Афиша</button><i>•</i>
+        <button type="button">Заказ билетов</button><i>•</i>
+        <button type="button">Контакты</button><i>•</i>
+        <button type="button">История дворца</button><i>•</i>
+        <button type="button">Галерея</button><i>•</i>
+        <button type="button">Планы залов</button>
+      </nav>
+      <button class="menu-toggle" aria-label="Открыть меню" type="button">☰</button>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero-row" aria-label="Избранные мероприятия">
+      <img class="hero-image" src="images/theatre-stage.jpg" alt="Театральная сцена и зрительный зал">
+      <div class="feature-list">
+        <button class="feature active" type="button">
+          <img src="images/opera-vs-operetta.jpg" alt="">
+          <span>Опера VS Оперетта</span>
+        </button>
+        <button class="feature" type="button">
+          <img src="images/vivaldi-featured.jpg" alt="">
+          <span>Антонио Вивальди. Времена года</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="events section-space" id="afisha">
+      <div class="section-heading">
+        <h1>Афиша</h1>
+        <button class="all-events" type="button"><img class="calendar-image" src="images/calendar-icon.png" alt=""> Все мероприятия</button>
+      </div>
+      <div class="event-card">
+        <div class="event-date"><strong>3</strong><span>ИЮНЯ</span></div>
+        <img class="event-image" src="images/theatre-stage.jpg" alt="Сцена концертного зала">
+        <div class="event-info">
+          <h2>Антонио Вивальди. Времена года</h2>
+          <p>Посвящение Фрэнку Синатре.</p>
+          <div class="metadata">
+            <span><img src="images/icon-music.png" alt="Жанр"> Джаз</span>
+            <span><img src="images/icon-time.png" alt="Время"> 19:00</span>
+            <span><img src="images/icon-age.png" alt="Возраст"> 6+</span>
+          </div>
+        </div>
+        <button class="ticket-button" type="button">Заказать билет</button>
+      </div>
+      <div class="event-card">
+        <div class="event-date"><strong>30</strong><span>ИЮНЯ</span></div>
+        <img class="event-image" src="images/opera-vs-operetta.jpg" alt="Сцена оперного спектакля">
+        <div class="event-info">
+          <h2>Опера VS Оперетта</h2>
+          <p>Санкт-Петербургский камерный оркестр Olympic Orchestra</p>
+          <div class="metadata">
+            <span><img src="images/icon-music.png" alt="Жанр"> Классика</span>
+          </div>
+        </div>
+        <button class="ticket-button" type="button">Заказать билет</button>
+      </div>
+    </section>
+
+    <section class="news-calendar">
+      <div class="news">
+        <h2 class="section-title">Новости</h2>
+        <div class="news-grid">
+          <article class="news-item">
+            <img src="images/news-exhibition.jpg" alt="Посетители в современном выставочном пространстве">
+            <h3>Переносы / Отмена мероприятий</h3>
+            <p>11.04.2023 г. в 19.00 час. — концерт «Опера vs. Оперетта» — ПЕРЕНОС на 05.06.2023 г. в 19.00 час.</p>
+          </article>
+          <article class="news-item">
+            <img src="images/news-museum-hall.jpg" alt="Интерьер музейного зала">
+            <h3>Переносы / Отмена мероприятий</h3>
+            <p>11.04.2023 г. в 19.00 час. — концерт «Опера vs. Оперетта» — ПЕРЕНОС на 05.06.2023 г. в 19.00 час.</p>
+          </article>
+        </div>
+      </div>
+      <aside class="excursions">
+        <div class="excursion-cover">
+          <img src="images/museum-gallery.jpg" alt="Зал художественной галереи">
+          <h2>Обзорные экскурсии</h2>
+        </div>
+        <div class="calendar">
+          <div class="month">Июль</div>
+          <div class="calendar-grid" aria-label="Календарь экскурсий">
+            <button type="button">1</button><button class="available" type="button">2</button><button type="button">3</button><button type="button">4</button><button class="available" type="button">5</button><button type="button">6</button><button class="available" type="button">7</button>
+            <button type="button">1</button><button class="available" type="button">2</button><button type="button">3</button><button type="button">4</button><button class="available" type="button">5</button><button type="button">6</button><button class="available" type="button">7</button>
+            <button type="button">1</button><button class="available" type="button">2</button><button type="button">3</button><button type="button">4</button><button class="available" type="button">5</button><button type="button">6</button><button class="available" type="button">7</button>
+            <button type="button">1</button><button class="available" type="button">2</button><button type="button">3</button><button type="button">4</button><button class="available" type="button">5</button><button type="button">6</button><button class="available" type="button">7</button>
+            <button type="button">1</button><button class="available" type="button">2</button><button type="button">3</button><button type="button">4</button><button class="available" type="button">5</button><button type="button">6</button><button class="available" type="button">7</button>
+          </div>
+          <div class="calendar-controls">
+            <button type="button" aria-label="Предыдущий месяц">‹</button>
+            <button type="button" aria-label="Следующий месяц">›</button>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="short-announcements">
+      <div class="section-heading">
+        <h2 class="section-title">Краткие анонсы</h2>
+        <button class="all-events" type="button"><img class="calendar-image" src="images/calendar-icon.png" alt=""> Все мероприятия</button>
+      </div>
+      <div class="announcement-row">
+        <button class="announcement" type="button"><strong>3</strong><small>ИЮНЯ</small></button><b>«ВЕК ИМЕНИ СИНАТРЫ»</b>
+        <button class="announcement" type="button"><strong>3</strong><small>ИЮНЯ</small></button><b>«ВЕК ИМЕНИ СИНАТРЫ»</b>
+        <button class="announcement" type="button"><strong>3</strong><small>ИЮНЯ</small></button><b>«ВЕК ИМЕНИ СИНАТРЫ»</b>
+        <button class="announcement" type="button"><strong>3</strong><small>ИЮНЯ</small></button><b>«ВЕК ИМЕНИ СИНАТРЫ»</b>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-grid">
+      <div class="footer-brand">САЙТ КОНЦЕРТНО-ЭКСКУРСИОННЫХ ПРОГРАММ</div>
+      <div><h3>Мероприятия</h3><div class="footer-links"><button type="button">Экскурсии</button><button type="button">Концерты</button><button type="button">Афиша</button></div></div>
+      <div><h3>Контакты</h3><p>г. Санкт-Петербург, Невский пр., д. 1</p><button type="button" class="footer-link">text@mail.ru</button><p>(812) 123-45-67</p></div>
+    </div>
+    <div class="wrap copyright">Сайт ко</div>
+  </footer>
+</body>
+</html>
